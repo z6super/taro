@@ -9,8 +9,9 @@ export const onBackgroundAudioPlay = temporarilyNotSupport('onBackgroundAudioPla
 export const onBackgroundAudioPause = temporarilyNotSupport('onBackgroundAudioPause')
 export const onBackgroundAudioStop = temporarilyNotSupport('onBackgroundAudioStop')
 // export const onNetworkStatusChange = temporarilyNotSupport('onNetworkStatusChange')
-export const onAccelerometerChange = temporarilyNotSupport('onAccelerometerChange')
-export const onCompassChange = temporarilyNotSupport('onCompassChange')
+// export const onAccelerometerChange = temporarilyNotSupport('onAccelerometerChange')
+// export const onCompassChange = temporarilyNotSupport('onCompassChange')
+// export const onDeviceMotionChange = temporarilyNotSupport('onDeviceMotionChange')
 export const onBluetoothAdapterStateChange = temporarilyNotSupport('onBluetoothAdapterStateChange')
 export const onBluetoothDeviceFound = temporarilyNotSupport('onBluetoothDeviceFound')
 export const onBLEConnectionStateChange = temporarilyNotSupport('onBLEConnectionStateChange')
@@ -57,10 +58,12 @@ export const createMapContext = temporarilyNotSupport('createMapContext')
 
 // 设备
 export const canIUse = temporarilyNotSupport('canIUse')
-export const startAccelerometer = temporarilyNotSupport('startAccelerometer')
-export const stopAccelerometer = temporarilyNotSupport('stopAccelerometer')
-export const startCompass = temporarilyNotSupport('startCompass')
-export const stopCompass = temporarilyNotSupport('stopCompass')
+// export const startAccelerometer = temporarilyNotSupport('startAccelerometer')
+// export const stopAccelerometer = temporarilyNotSupport('stopAccelerometer')
+// export const startCompass = temporarilyNotSupport('startCompass')
+// export const stopCompass = temporarilyNotSupport('stopCompass')
+// export const startDeviceMotionListening = temporarilyNotSupport('startDeviceMotionListening')
+// export const stopDeviceMotionListening = temporarilyNotSupport('stopDeviceMotionListening')
 
 // 界面
 // export const hideToast = temporarilyNotSupport('hideToast')
@@ -77,8 +80,15 @@ export const hideKeyboard = temporarilyNotSupport('hideKeyboard')
 // export const stopPullDownRefresh = temporarilyNotSupport('stopPullDownRefresh')
 export const createIntersectionObserver = temporarilyNotSupport('createIntersectionObserver')
 
-export const onWindowResize = temporarilyNotSupport('onWindowResize')
-export const offWindowResize = temporarilyNotSupport('offWindowResize')
+// 自定义组件
+// export const nextTick = temporarilyNotSupport('nextTick')
+
+// 菜单
+export const getMenuButtonBoundingClientRect = temporarilyNotSupport('getMenuButtonBoundingClientRect')
+
+// 窗口
+// export const onWindowResize = temporarilyNotSupport('onWindowResize')
+// export const offWindowResize = temporarilyNotSupport('offWindowResize')
 
 // 拓展接口
 // export const arrayBufferToBase64 = temporarilyNotSupport('arrayBufferToBase64')
@@ -98,7 +108,7 @@ export const createWorker = temporarilyNotSupport('createWorker')
 
 // 媒体
 // export const chooseImage = temporarilyNotSupport('chooseImage')
-export const previewImage = temporarilyNotSupport('previewImage')
+// export const previewImage = temporarilyNotSupport('previewImage')
 // export const getImageInfo = temporarilyNotSupport('getImageInfo')
 export const saveImageToPhotosAlbum = temporarilyNotSupport('saveImageToPhotosAlbum')
 export const startRecord = temporarilyNotSupport('startRecord')
@@ -166,8 +176,8 @@ export const getBeacons = temporarilyNotSupport('getBeacons')
 export const setScreenBrightness = temporarilyNotSupport('setScreenBrightness')
 export const getScreenBrightness = temporarilyNotSupport('getScreenBrightness')
 export const setKeepScreenOn = temporarilyNotSupport('setKeepScreenOn')
-export const vibrateLong = temporarilyNotSupport('vibrateLong')
-export const vibrateShort = temporarilyNotSupport('vibrateShort')
+// export const vibrateLong = temporarilyNotSupport('vibrateLong')
+// export const vibrateShort = temporarilyNotSupport('vibrateShort')
 export const addPhoneContact = temporarilyNotSupport('addPhoneContact')
 export const getHCEState = temporarilyNotSupport('getHCEState')
 export const startHCE = temporarilyNotSupport('startHCE')
